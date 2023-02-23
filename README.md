@@ -30,4 +30,4 @@ I strongly recomend to install nodemon globally to start the API serve, but isn'
 To start your local service, run `yarn start` . This will start node at api/index.js, if nodemon is installed, run `yarn nodemon`.
 
 
-**_Note_**: This is the first commit, no .env variables yet, so there's only dev enviroment ;)
+**_Note_**: There is no real-time db on this API, just servin JSON's, mutations request on the db will be restored afther restart the server
