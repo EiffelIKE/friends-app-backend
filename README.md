@@ -17,6 +17,7 @@ After cloning this repo, you must :
 ```
 or:
 
+```
 > npm install
 
 ```
@@ -26,6 +27,7 @@ I strongly recomend to install nodemon globally to start the API serve, but isn'
 > yarn global add nodemon
 ```
 or:
+```
 > npm install -g nodemon
 
 ```
