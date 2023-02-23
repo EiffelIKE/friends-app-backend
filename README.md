@@ -2,7 +2,6 @@
 
 This repo is a simple based backend with NodeJS and Express, created with the main purpose of sharing it with my dev friends who are inproving skills on React rn, and to inprove the responses of other 3rd partys API's.
 
-
 ### Repo arquitecture
 The ./api folder contains the API service, and the .api/components contains the routes to match CRUD requests.
 
@@ -31,6 +30,8 @@ or:
 > npm install -g nodemon
 
 ```
+### Documentation
+Once the service is running, you can open de api-documentation on localhost:9000/api-docs, and play on the swagger-ui playground.
 
 ### Commands availables
 
