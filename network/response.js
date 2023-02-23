@@ -10,12 +10,17 @@ exports.success =  (req, res, message, status) => {
 };
 
 exports.error = (req, res, message, status) => {
-  let statusCode = status || 500;
-  let statusMessage = message || '[error]: Internal server error';
+  let statusCode = status || 400;
+  let statusMessage = message || '[error]: Bad request';
   
   res.status(statusCode).send({
     error: true,
     status: statusCode,
     data: statusMessage,
   })
+};
+
+exports.handler = (req, res, message) => {
+  message ? this.success(req, res, message, 201) : this.error(req, res, message, 400)
+
 };
