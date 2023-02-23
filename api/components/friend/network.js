@@ -1,10 +1,13 @@
 const express = require("express");
 
 const response = require("../../../network/response")
+const controller = require("./controller");
+
 const router = express.Router();
 
 router.get("/", (req, res) => {
-  response.success(req, res, "Service Working", 200 )
+  const list = controller.list()
+  response.success(req, res, list, 200 )
 }
 
 );

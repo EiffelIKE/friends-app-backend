@@ -9,5 +9,5 @@ const friend = require('./components/friend/network');
 app.use('/api/friend', friend);
 
 app.listen(config.api.port, () => {
-  console.log(`Api listening on port ${config.api.port}`)
+  console.log(`Api listening on port ${config.api.port}`);
 })
