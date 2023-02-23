@@ -1,0 +1,306 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Friends-App",
+    "description": "This is a simple Friends App, built with NodeJS-Express\n\n_Note: this backend doesn't have a real database, all mutations will be restored afther closing the service_",
+    "version": "0.1.0"
+  },
+  "tags": [
+    {
+      "name": "Friends",
+      "description": "Everything about your Friends"
+    }
+  ],
+  "paths": {
+    "/api/friends": {
+      "get": {
+        "tags": [
+          "Friends list"
+        ],
+        "summary": "Finds all friends",
+        "description": "Simple query request to get all friends",
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/friends"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Friend"
+        ],
+        "summary": "Add a new friend to the store",
+        "description": "Add a new friend to the store",
+        "requestBody": {
+          "description": "Create a new friend in the store",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/data"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful operation"
+          },
+          "400": {
+            "description": "Bad Request"
+          }
+        }
+      }
+    },
+    "/api/friends/{id}": {
+      "get": {
+        "tags": [
+          "Friend"
+        ],
+        "summary": "Find a frien by id",
+        "description": "Id must by provided via parameters",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Friend's ID ",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/friends"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request"
+          }
+        }
+      },
+      "patch": {
+        "tags": [
+          "Edit Friend"
+        ],
+        "summary": "Edit Friend data",
+        "description": "Id must by provided via parameters",
+        "requestBody": {
+          "description": "Edit friend's data",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/data"
+              }
+            }
+          },
+          "required": true
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Friend's ID ",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/getfriend"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Delete a Friend"
+        ],
+        "summary": "Delete Friend of db",
+        "description": "Id must by provided via parameters",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Friend's ID ",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/getfriend"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request"
+          }
+        }
+      }
+    }
+  },
+  "components" : {
+    "schemas" : {
+      "data" : {
+        "type": "object",
+        "properties": {
+          "img": {
+            "type": "string",
+            "example": "https://someurl.image.host"
+          },
+          "first_name": {
+            "type": "string",
+            "example": "Steve"
+          },
+          "last_name": {
+            "type": "string",
+            "example": "Rogers"
+          },
+          "phone": {
+            "type": "string",
+            "example": "(900) 122-1231"
+          },
+          "address_1": {
+            "type": "string",
+            "example": "12th Central Avenue"
+          },
+          "city": {
+            "type": "string",
+            "example": "Queens"
+          },
+          "state": {
+            "type": "string",
+            "example": "NY"
+          },
+          "zipcode": {
+            "type": "integer",
+            "format": "int64",
+            "example": 766556
+          },
+          "bio": {
+            "type": "string",
+            "example": "I'm always trying to do my best, no matter how, but I'll keep my way 'til it's done. Embrace your failures as your best budy."
+          },
+          "photos": {
+            "type": "array",
+            "xml": {
+              "wrapped": true
+            },
+            "items": {
+              "type": "string",
+              "example": "https://someurl.image.host"
+            }
+          },
+          "statuses":  {
+            "type": "array",
+            "xml": {
+              "wrapped": true
+            },
+            "items": {
+              "type": "string",
+                "xml": {
+                "name": "photoUrl"
+              },
+              "example": "Building something awesome..."
+            }
+          },
+          "available": {
+            "type": "boolean"
+          }
+        }
+      },
+     "friends" : {
+       "type": "object",
+       "properties": {
+          "error": {
+            "type": "boolean",
+            "example": false
+          },
+         "status":  {
+            "type": "integer",
+            "format": "int64",
+            "example": 200
+          },
+         "data": {
+            "type": "array",
+              "xml": {
+              "wrapped": true
+            },
+            "items": {
+              "$ref": "#/components/schemas/data"
+            }
+          }
+        }
+      } ,
+      "getfriend" : {
+        "type": "object",
+        "properties": {
+          "error": {
+            "type": "boolean",
+            "example": false
+          },
+          "status":  {
+            "type": "integer",
+            "format": "int64",
+            "example": 200
+          },
+          "data": {
+            "type": "string",
+            "example": "Friend added"
+          }
+        }
+      }    
+    }
+  }
+}

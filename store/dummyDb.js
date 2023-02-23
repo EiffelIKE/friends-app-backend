@@ -38,9 +38,9 @@ module.exports = {
       "zipcode": "77375",
       "bio": "I'm kinda crazy. I'm in love with music, with nature and all the amazing nature stuffs, peace bro.",
       "photos": [
-        "https://flic.kr/p/mxHVJu",
-        "https://flic.kr/p/nCJyXN",
-        "https://flic.kr/p/mxwwsv"
+        "https://flic.kr/p/23bGBBm",
+        "https://flic.kr/p/23bGBXb",
+        "https://flic.kr/p/23bGCA5"
       ],
       "statuses": [
         "Take a look around you, everything is awesome",
@@ -65,8 +65,10 @@ module.exports = {
       "bio": "I'm very dummy. So, sorry if you phone-call me and I don't answer, surely this is the real status: ZzZz",
       "photos": [
         "https://flic.kr/p/mxHVJu",
-        "https://flic.kr/p/nCJyXN",
-        "https://flic.kr/p/mxwwsv"
+        "https://flic.kr/p/HNKJxy",
+        "https://flic.kr/p/mxwwsv",
+        "https://flic.kr/p/HNKKsQ",
+        "https://flic.kr/p/25JJWoH"
       ],
       "statuses": [
         "Man, life is so good",
@@ -89,9 +91,10 @@ module.exports = {
       "zipcode": "77380",
       "bio": "I just love the beach, actually, I love all kind of vacational activities, but wait, here it comes: there's no vacations for me, work hard for your dreams!",
       "photos": [
-        "https://flic.kr/p/mxHVJu",
-        "https://flic.kr/p/nCJyXN",
-        "https://flic.kr/p/mxwwsv"
+        "https://flic.kr/p/em4ydq",
+        "https://flic.kr/p/em4ygJ",
+        "https://flic.kr/p/em4yiq",
+        "https://flic.kr/p/ekY1bx",
       ],
       "statuses": [
         "At work...",
@@ -114,9 +117,11 @@ module.exports = {
       "zipcode": "77369",
       "bio": "I'm always trying to do my best, no matter how, but I'll keep my way 'til it's done. Embrace your failures as your best budy.",
       "photos": [
-        "https://flic.kr/p/mxHVJu",
+        "https://flic.kr/p/ekY1fH",
         "https://flic.kr/p/nCJyXN",
-        "https://flic.kr/p/mxwwsv"
+        "https://flic.kr/p/ekY1hg",
+        "https://flic.kr/p/ekY1mc",
+        "https://flic.kr/p/dtigcf",
       ],
       "statuses": [
         "Doing just well",
@@ -140,8 +145,13 @@ module.exports = {
       "bio": "No, I'm not the green-goblin, but actually I love the movies, best plan ever, saturday nigths with friends and movies. Rest is also important. ",
       "photos": [
         "https://flic.kr/p/mxHVJu",
-        "https://flic.kr/p/nCJyXN",
-        "https://flic.kr/p/mxwwsv"
+        "https://flic.kr/p/bRSqKV",
+        "https://flic.kr/p/mxwwsv",
+        "https://flic.kr/p/bCXB7m",
+        "https://flic.kr/p/f2FX1E",
+        "https://flic.kr/p/f2rAcB",
+        "https://flic.kr/p/f2rvLP",
+
       ],
       "statuses": [
         "At home",
@@ -167,7 +177,12 @@ module.exports = {
       "photos" : [
         "https://flic.kr/p/mxHVJu",
         "https://flic.kr/p/nCJyXN",
-        "https://flic.kr/p/mxwwsv"
+        "https://flic.kr/p/f2FBTC",
+        "https://flic.kr/p/f2rf3n",
+        "https://flic.kr/p/f2r7t4",
+        "https://flic.kr/p/f2qA1F",
+        "https://flic.kr/p/f2F8Yw",
+        "https://flic.kr/p/f2F7ny",
       ],
       "statuses": [
         "Nothing is shure",

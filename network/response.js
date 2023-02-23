@@ -11,7 +11,7 @@ exports.success =  (req, res, message, status) => {
 
 exports.error = (req, res, message, status) => {
   let statusCode = status || 400;
-  let statusMessage = message || '[error]: Bad request';
+  let statusMessage = message || 'Bad request';
   
   res.status(statusCode).send({
     error: true,
