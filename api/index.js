@@ -1,5 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const cors = require('cors');
 
 const config = require('../config.js');
 const app = express();
@@ -8,6 +9,8 @@ const friend = require('./components/friend/network');
 
 const swaggerUi = require('swagger-ui-express');
 const swaggerDocument = require('./swagger.json');
+
+app.use(cors());
 
 app.use(bodyParser.json())
 //Routes
