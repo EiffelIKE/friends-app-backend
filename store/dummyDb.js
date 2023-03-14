@@ -3,7 +3,7 @@ module.exports = {
     {
       "id": 0,
       "img": "https://reqres.in/img/faces/7-image.jpg",
-      "first_name": "Steph",
+      "first_name": "Stephany",
       "last_name": "Walters",
       "phone": "(820) 289-1818",
       "address_1": "5190 Center Court Drive",
@@ -12,9 +12,9 @@ module.exports = {
       "zipcode": "77370",
       "bio": "I'm very choosy. I'm also very suspicious, very irrational and I have a very short temper. I'm also extremely jealous and slow to forgive. Just so you know.",
       "photos": [
-        "https://flic.kr/p/mxHVJu",
-        "https://flic.kr/p/nCJyXN",
-        "https://flic.kr/p/mxwwsv"
+        "https://cdn.pixabay.com/photo/2023/03/10/08/39/duck-7841814_1280.jpg",
+        "https://cdn.pixabay.com/photo/2023/03/01/20/07/flowers-7823941_1280.jpg",
+        "https://cdn.pixabay.com/photo/2023/03/09/15/25/flower-7840259_1280.jpg"
       ],
       "statuses": [
         "Developing something amazing",
@@ -29,8 +29,8 @@ module.exports = {
     {
       "id": 1,
       "img": "https://reqres.in/img/faces/8-image.jpg",
-      "first_name": "Jeremy",
-      "last_name": "Davis",
+      "first_name": "Ching",
+      "last_name": "hang",
       "phone": "(875) 283-1715",
       "address_1": "5200 SlowTown Front Drive",
       "city": "Shelsea",
@@ -38,9 +38,9 @@ module.exports = {
       "zipcode": "77375",
       "bio": "I'm kinda crazy. I'm in love with music, with nature and all the amazing nature stuffs, peace bro.",
       "photos": [
-        "https://flic.kr/p/23bGBBm",
-        "https://flic.kr/p/23bGBXb",
-        "https://flic.kr/p/23bGCA5"
+        "https://cdn.pixabay.com/photo/2017/09/25/11/55/cyberspace-2784907_1280.jpg",
+        "https://cdn.pixabay.com/photo/2016/07/29/14/33/ballet-1553359_1280.jpg",
+        "https://cdn.pixabay.com/photo/2013/11/26/05/31/lock-218505_1280.jpg"
       ],
       "statuses": [
         "Take a look around you, everything is awesome",
@@ -64,11 +64,11 @@ module.exports = {
       "zipcode": "77378",
       "bio": "I'm very dummy. So, sorry if you phone-call me and I don't answer, surely this is the real status: ZzZz",
       "photos": [
-        "https://flic.kr/p/mxHVJu",
-        "https://flic.kr/p/HNKJxy",
-        "https://flic.kr/p/mxwwsv",
-        "https://flic.kr/p/HNKKsQ",
-        "https://flic.kr/p/25JJWoH"
+        "https://cdn.pixabay.com/photo/2013/07/25/11/52/rajiv-gandhi-sea-link-166867_1280.jpg",
+        "https://cdn.pixabay.com/photo/2017/09/25/11/55/cyberspace-2784907_1280.jpg",
+        "https://cdn.pixabay.com/photo/2016/07/29/14/33/ballet-1553359_1280.jpg",
+        "https://cdn.pixabay.com/photo/2013/11/26/05/31/lock-218505_1280.jpg",
+        "https://cdn.pixabay.com/photo/2017/04/15/12/08/chain-2232278_1280.jpg"
       ],
       "statuses": [
         "Man, life is so good",
@@ -91,10 +91,11 @@ module.exports = {
       "zipcode": "77380",
       "bio": "I just love the beach, actually, I love all kind of vacational activities, but wait, here it comes: there's no vacations for me, work hard for your dreams!",
       "photos": [
-        "https://flic.kr/p/em4ydq",
-        "https://flic.kr/p/em4ygJ",
-        "https://flic.kr/p/em4yiq",
-        "https://flic.kr/p/ekY1bx",
+        "https://cdn.pixabay.com/photo/2017/04/15/12/08/chain-2232278_1280.jpg",
+        "https://cdn.pixabay.com/photo/2017/09/25/11/55/cyberspace-2784907_1280.jpg",
+        "https://cdn.pixabay.com/photo/2016/07/29/14/33/ballet-1553359_1280.jpg",
+        "https://cdn.pixabay.com/photo/2013/11/26/05/31/lock-218505_1280.jpg",
+        "https://cdn.pixabay.com/photo/2023/03/10/08/39/duck-7841814_1280.jpg"
       ],
       "statuses": [
         "At work...",
@@ -117,11 +118,16 @@ module.exports = {
       "zipcode": "77369",
       "bio": "I'm always trying to do my best, no matter how, but I'll keep my way 'til it's done. Embrace your failures as your best budy.",
       "photos": [
-        "https://flic.kr/p/ekY1fH",
-        "https://flic.kr/p/nCJyXN",
-        "https://flic.kr/p/ekY1hg",
-        "https://flic.kr/p/ekY1mc",
-        "https://flic.kr/p/dtigcf",
+        "https://cdn.pixabay.com/photo/2023/03/09/20/02/cat-7840767_1280.jpg",
+        "https://cdn.pixabay.com/photo/2017/04/15/12/08/chain-2232278_1280.jpg",
+        "https://cdn.pixabay.com/photo/2017/09/25/11/55/cyberspace-2784907_1280.jpg",
+        "https://cdn.pixabay.com/photo/2016/07/29/14/33/ballet-1553359_1280.jpg",
+        "https://cdn.pixabay.com/photo/2013/11/26/05/31/lock-218505_1280.jpg",
+        "https://cdn.pixabay.com/photo/2017/04/15/12/08/chain-2232278_1280.jpg",
+        "https://cdn.pixabay.com/photo/2017/11/07/07/49/web-2925929_1280.jpg",
+        "https://cdn.pixabay.com/photo/2014/09/21/01/39/fence-454558_1280.jpg",
+        "https://cdn.pixabay.com/photo/2012/12/27/19/40/chain-link-72864_960_720.jpg",
+        "https://cdn.pixabay.com/photo/2019/04/04/15/17/smartphone-4103051_1280.jpg"
       ],
       "statuses": [
         "Doing just well",
@@ -135,8 +141,8 @@ module.exports = {
     },  {
       "id": 5,
       "img": "https://reqres.in/img/faces/12-image.jpg",
-      "first_name": "Harry",
-      "last_name": "Osborn",
+      "first_name": "Melanie",
+      "last_name": "Stark",
       "phone": "(820) 289-1818",
       "address_1": "5190 Center Court Drive",
       "city": "Spring",
@@ -144,14 +150,10 @@ module.exports = {
       "zipcode": "77370",
       "bio": "No, I'm not the green-goblin, but actually I love the movies, best plan ever, saturday nigths with friends and movies. Rest is also important. ",
       "photos": [
-        "https://flic.kr/p/mxHVJu",
-        "https://flic.kr/p/bRSqKV",
-        "https://flic.kr/p/mxwwsv",
-        "https://flic.kr/p/bCXB7m",
-        "https://flic.kr/p/f2FX1E",
-        "https://flic.kr/p/f2rAcB",
-        "https://flic.kr/p/f2rvLP",
-
+        "https://cdn.pixabay.com/photo/2023/03/07/03/27/bird-7834912_1280.jpg",
+        "https://cdn.pixabay.com/photo/2023/03/10/14/24/flower-7842430_1280.jpg",
+        "https://cdn.pixabay.com/photo/2023/03/09/10/08/cherry-blossoms-7839659_1280.jpg",
+        "https://cdn.pixabay.com/photo/2023/03/09/20/02/cat-7840767_1280.jpg"
       ],
       "statuses": [
         "At home",
@@ -165,7 +167,7 @@ module.exports = {
       "available": false
     },  {
       "id": 6,
-      "img": "https://reqres.in/img/faces/13-image.jpg",
+      "img": "https://reqres.in/img/faces/6-image.jpg",
       "first_name": "Mario",
       "last_name": "Gonzalez",
       "phone": "(817) 300-4278",
@@ -175,14 +177,12 @@ module.exports = {
       "zipcode": "77300",
       "bio": "I know that you may see me as a some rude guy, but that's not true actually, in fact I'm a great cooker, probably I was a cheff in my previous live. ",
       "photos" : [
-        "https://flic.kr/p/mxHVJu",
-        "https://flic.kr/p/nCJyXN",
-        "https://flic.kr/p/f2FBTC",
-        "https://flic.kr/p/f2rf3n",
-        "https://flic.kr/p/f2r7t4",
-        "https://flic.kr/p/f2qA1F",
-        "https://flic.kr/p/f2F8Yw",
-        "https://flic.kr/p/f2F7ny",
+        "https://cdn.pixabay.com/photo/2023/03/09/20/02/cat-7840767_1280.jpg",
+        "https://cdn.pixabay.com/photo/2023/03/10/14/24/flower-7842430_1280.jpg",
+        "https://cdn.pixabay.com/photo/2023/03/09/10/08/cherry-blossoms-7839659_1280.jpg",
+        "https://cdn.pixabay.com/photo/2013/11/26/05/31/lock-218505_1280.jpg",
+        "https://cdn.pixabay.com/photo/2017/04/15/12/08/chain-2232278_1280.jpg",
+        "https://cdn.pixabay.com/photo/2017/11/07/07/49/web-2925929_1280.jpg",
       ],
       "statuses": [
         "Nothing is shure",

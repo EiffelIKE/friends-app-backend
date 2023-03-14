@@ -1,7 +1,6 @@
 const express = require("express");
 
 const response = require("../../../network/response");
-const { friends } = require("../../../store/dummyDb");
 const controller = require("./controller");
 
 const router = express.Router();
